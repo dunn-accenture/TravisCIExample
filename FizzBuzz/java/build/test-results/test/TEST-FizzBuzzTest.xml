@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FizzBuzzTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-02-12T17:23:02" hostname="Aarons-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="shouldReturn1for1" classname="FizzBuzzTest" time="0.002"/>
+  <testcase name="shouldReturnFizzBuzzfor15" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="shouldReturnFizzforMultipleOf3" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="shouldReturnFizzforMultipleOf5" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="shouldReturnBuzzfor5" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="shouldReturnItselfWhenNotFizzOrBuzz" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="shouldReturnFizzfor3" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="shouldReturnFizzforMultipleOf15" classname="FizzBuzzTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
