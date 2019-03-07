@@ -5,7 +5,7 @@ language: csharp
 #   #   - release*
 mono:
   - latest
-solution: ./FizzBuzz/FizzBuzz.sln
+solution: ./FizzBuzz/csharp/FizzBuzz.sln
 # install:
 #   - nuget restore ./FizzBuzz/FizzBuzz.sln
 #   - nuget install xunit.runner.console -Version 2.4.1 -OutputDirectory ./testrunner
