@@ -1,0 +1,14 @@
+language: csharp
+branches:
+  # only:
+  #   - master
+  #   - release*
+mono:
+  - latest
+solution: ./FizzBuzz/FizzBuzz.sln
+install:
+  - nuget restore ./FizzBuzz/FizzBuzz.sln
+  - nuget install xunit.runner.console -Version 2.4.1 -OutputDirectory ./testrunner
+script:
+  - msbuild /p:Configuration=Release ./FizzBuzz/FizzBuzz.sln
+  - mono /home/travis/build/dunn-accenture/TravisCIExample/FizzBuzz/packages/xunit.runner.console.2.4.1/tools/net461/xunit.console.exe /home/travis/build/dunn-accenture/TravisCIExample/FizzBuzz/FizzBuzz/bin/Release/FizzBuzz.dll                                                                                                                              
